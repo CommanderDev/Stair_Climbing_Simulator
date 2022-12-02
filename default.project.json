@@ -1,0 +1,57 @@
+{
+  "name": "Stair Climbing Simulator",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "Shared": {
+        "$path": "src/Shared"
+      },
+      "Knit": {
+        "$path": "src/Knit"
+      },
+
+      "Assets": {
+        "$className": "Folder"
+      },
+
+      "GameVersion": {
+        "$path": "src/GameVersion.txt"
+      }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+
+      "Assets": {
+        "$className": "Folder"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      
+      "Server": {
+        "$path": "src/Server"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+
+      "Client": {
+        "$path": "src/Client"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts"
+      }
+    }
+  }
+}
